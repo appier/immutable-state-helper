@@ -1,10 +1,19 @@
 # immutable-state-helper
 
-## Helper function for setState pattern
+## Install
 
+```
+npm install immutable-state-helper
+```
+
+## createImmState
+
+Helper function for setState pattern
+
+Extend from:
 https://github.com/facebook/immutable-js/wiki/Immutable-as-React-state#helper-function-for-setstate-pattern
 
-## Example
+### Example
 
 ```
 import { Map } from 'immutable;
