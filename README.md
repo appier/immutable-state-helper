@@ -13,10 +13,25 @@ npm install immutable-state-helper
 
 ## createImmState
 
-Helper function for setState pattern
+Helper function for setState pattern.
 
-Extend from:
-https://github.com/facebook/immutable-js/wiki/Immutable-as-React-state#helper-function-for-setstate-pattern
+Copy and modify from [Immutable-as-React-state](https://github.com/facebook/immutable-js/wiki/Immutable-as-React-state#helper-function-for-setstate-pattern).
+
+### Signature
+
+```
+createImmState(thisArg, [field], [callback]): Function
+```
+
+### Arguments
+
+1. thisArg  (*): The this binding of React Element.
+2. [field='data'] (String): The property name that stored in state.
+3. [callback] (Function): The callback apply into setState's callback.
+
+### Returns
+
+(Function): Immutable version of setState.
 
 ### Example
 
