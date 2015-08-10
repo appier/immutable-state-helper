@@ -1,5 +1,9 @@
 # immutable-state-helper
 
+[![npm version](https://badge.fury.io/js/immutable-state-helper.svg)](http://badge.fury.io/js/immutable-state-helper)
+[![immutable-state-helper dependency status](https://david-dm.org/appier/immutable-state-helper.svg)](https://david-dm.org/appier/immutable-state-helper)
+[![immutable-state-helper devDependency status](https://david-dm.org/appier/immutable-state-helper/dev-status.svg)](https://david-dm.org/appier/immutable-state-helper#info=devDependencies)
+
 ## Install
 
 ```
