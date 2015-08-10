@@ -26,8 +26,8 @@ createImmState(thisArg, [field], [callback]): Function
 ### Arguments
 
 1. thisArg  (*): The this binding of React Element.
-2. [field='data'] (String): The property name that stored in state.
-3. [callback] (Function): The callback apply into setState's callback.
+2. \[field='data'\] (String): The property name that stored in state.
+3. \[callback\] (Function): The callback apply into setState's callback.
 
 ### Returns
 
@@ -36,8 +36,8 @@ createImmState(thisArg, [field], [callback]): Function
 ### Example
 
 ```
-import { Map } from 'immutable;
 import React from 'react';
+import { Map } from 'immutable;
 import { createImmState } from 'immutable-state-helper';
 
 class Example extends React.Component {
@@ -46,7 +46,8 @@ class Example extends React.Component {
 
   onFooChange(value) {
     this.setImmState(
-      updater => updater.set('foo', value)
+      updater => updater.set('foo', value),
+      () => console.log('re-rendered!')
     );
   }
 
