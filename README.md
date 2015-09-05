@@ -2,6 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/immutable-state-helper.svg)](http://badge.fury.io/js/immutable-state-helper)
 [![CI report](https://travis-ci.org/appier/immutable-state-helper.svg?branch=master)](https://travis-ci.org/appier/immutable-state-helper)
+[![codecov.io](http://codecov.io/github/appier/immutable-state-helper/coverage.svg?branch=master)](http://codecov.io/github/appier/immutable-state-helper?branch=master)
 [![immutable-state-helper dependency status](https://david-dm.org/appier/immutable-state-helper.svg)](https://david-dm.org/appier/immutable-state-helper)
 [![immutable-state-helper devDependency status](https://david-dm.org/appier/immutable-state-helper/dev-status.svg)](https://david-dm.org/appier/immutable-state-helper#info=devDependencies)
 
